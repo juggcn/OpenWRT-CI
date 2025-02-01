@@ -15,6 +15,24 @@ CONFIG_PACKAGE_luci-app-usb-printer=y
 CONFIG_PACKAGE_luci-app-diskman=y
 CONFIG_PACKAGE_luci-app-store=y
 CONFIG_PACKAGE_luci-app-gecoosac=y
+
+CONFIG_PACKAGE_wpad-basic=n
+CONFIG_PACKAGE_wpad-basic-wolfssl=n
+CONFIG_PACKAGE_kmod-cfg80211=y
+CONFIG_PACKAGE_kmod-mac80211=y
+CONFIG_PACKAGE_iw=y
+CONFIG_PACKAGE_wpad-openssl=y
+CONFIG_PACKAGE_hostapd-common=y
+CONFIG_PACKAGE_kmod-mac80211-mesh=y
+CONFIG_PACKAGE_kmod-batman-adv=y
+CONFIG_PACKAGE_batctl=y
+CONFIG_PACKAGE_batman-adv=y
+CONFIG_PACKAGE_libnl-core=y
+CONFIG_PACKAGE_libnl-genl=y
+CONFIG_PACKAGE_kmod-ipt-core=y
+CONFIG_PACKAGE_kmod-bridge=y
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-proto-relay=y
 CONFIG_PACKAGE_luci-app-easymesh=y
 
 #删除插件
