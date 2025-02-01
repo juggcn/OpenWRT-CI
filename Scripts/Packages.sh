@@ -44,6 +44,8 @@ UPDATE_PACKAGE "nas_luci" "linkease/nas-packages-luci" "main"
 
 UPDATE_PACKAGE "luci-app-easymesh" "ntlf9t/luci-app-easymesh" "master"
 
+UPDATE_PACKAGE "luci-app-fakemesh" "x-wrt/com.x-wrt/tree/master/luci-app-fakemesh" "master"
+
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
 fi
